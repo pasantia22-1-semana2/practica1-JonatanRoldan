@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Aplicacion Presupuesto</title>
+        <link rel="stylesheet" href="./css/styles.css" />
+        
+	</head>
+	<body>
+		<div class="seccion1">
+			<div class="presupuesto_titulo">Presupuesto Disponible</div>
+			<div class="presupuesto_valor" id="presupuesto">+ 2,000</div>
+			<div class="row_card ">   
+                <div class="card bg-c-green order-card">
+                    <div class="card-header">TOTAL DE INGRESOS</div>
+                    <div class="card-block">
+                        <div class="Ingreso_valor" id="Ingresos">+ 2,000</div>
+                    </div>
+                </div>
+                <div class="card bg-c-pink order-card">
+                    <div class="card-header">TOTAL DE EGRESOS</div>
+                    <div class="card-block">
+                        <div class="Igresos_valor" id="Egresos">+ 2,000</div>
+                    </div>
+                </div>
+            </div>
+		</div>
+        <div class="seccion2">
+            <div class="datos">
+                <select id="operacion">
+                    <option value="egreso">Egreso</option>
+                    <option value="ingreso">Ingreso</option>
+                </select>
+                <input type="text" class='form-control' placeholder="Agregar Descripcion" id='descripcion'/>
+                <input type="number" class='form-control' placeholder="Valor" id='valor'/>
+                <button type="button">Agregar</button>
+            </div>
+        </div>
+        <div class="seccion3">
+            <div id="columna1">
+                <table class="table table-striped" style="text-align: center;">
+                    <thead bgcolor="rgb(143, 191, 233)">
+                        <th><font color="white">Descripcion</font></th>
+                        <th><font color="white">Valor</font></th>
+                        <th><font color="white">Acciones</font></th>
+                    </thead>
+                    <tbody>        
+                        <td>uno</td>
+                            <td>uno</td>
+                            <td>
+                                <button
+                                class="btn btn-danger btn-sm" (click)="deletetienda(tienda)" title="Eliminar Tienda">
+                                <i class="fas fa-eraser fa-2x"></i>
+                                </button>
+                            </td>
+                    </tbody>
+                </table>
+                </div>
+                <div id="columna2">
+                    <table class="table" style="text-align: center;">
+                        <thead bgcolor="rgb(143, 191, 233)">
+                            <th><font color="white">Descripcion</font></th>
+                            <th><font color="white">valor</font></th>
+                            <th><font color="white">Acciones</font></th>
+                        </thead>
+                        <tbody>        
+                            <td>uno</td>
+                            <td>uno</td>
+                            <td>
+                                <button
+                                class="btn btn-danger btn-sm" (click)="deletetienda(tienda)" title="Eliminar">
+                                <i class="fas fa-eraser fa-2x"></i>
+                                </button>
+                            </td>
+                        </tbody>
+                    </table>
+                </div>
+        </div>
+	</body>
+	<script
+		type="module"
+		src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+	></script>
+</html>

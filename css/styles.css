@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #555;
+    font-family: Open sans;
+    font-size: 16px;
+    position: relative;
+    height: 100vh;
+    font-weight: 400;
+}
+.seccion1{
+    background: linear-gradient(rgba(124, 124, 124, 0.7), rgba(95, 95, 95, 0.7)),
+    url("../assets/fondo1.jpg") fixed center center;
+    background-size: cover;
+    height: 250px;
+}
+.presupuesto_titulo{
+    margin-left: 600px;
+    color: #fff;
+    font-size: 20px;
+}
+.presupuesto_valor{
+    margin-left: 630px;
+    color: #fff;
+    font-size: 28px;
+}
+.row_card{
+    width: 300px;
+    height: 80px;
+    margin-left: 538px;
+    margin-top: 20px;
+}
+.order-card {
+    color: #fff;
+}
+
+.bg-c-green {
+    background: linear-gradient(45deg,#175B31,#49f17b);
+    
+}
+
+.bg-c-pink {
+    background: linear-gradient(45deg,#f31237,#f36a81);
+}
+.example-month-picker .mat-calendar-period-button {
+    pointer-events: none;
+}
+  
+.example-month-picker .mat-calendar-arrow {
+    display: none;
+}
+.card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+    box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+    border: none;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.seccion2{
+    background-color: rgb(143, 191, 233);
+    height: 60px;
+}
+.datos{
+    margin-left: 450px;
+    border-top: 40px;
+}
+.seccion3{
+    background: linear-gradient(rgba(124, 124, 124, 0.7), rgba(95, 95, 95, 0.7)),
+    url("../assets/fondo1.jpg") fixed center center;
+    background-size: cover;
+    height: 300px;
+}
+#columna1 {
+    position:absolute;
+    top:380px;
+    left:150px;
+    width:500px;
+    margin-top:10px;
+    background-color:#ffff55;
+}
+#columna2 {
+    position:absolute;
+    top:380px;
+    left:750px;
+    width:500px;
+    margin-top:10px;
+    background-color:#ffffbb;
+}
